@@ -1,0 +1,33 @@
+{
+  "name": "wc-predictions-api",
+  "version": "1.0.0",
+  "description": "predictions of sport results for friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSarajcic/wc-predictions-api.git"
+  },
+  "keywords": [
+    "world-cup",
+    "prediction",
+    "football",
+    "soccer"
+  ],
+  "author": "Ivan Sarajčić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSarajcic/wc-predictions-api/issues"
+  },
+  "homepage": "https://github.com/IvanSarajcic/wc-predictions-api#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
